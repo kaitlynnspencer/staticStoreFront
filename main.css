@@ -1,0 +1,275 @@
+/* Common Elements */
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: rgb(255, 115, 0) url(./images/background.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color: rgb(196, 83, 18);
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: darkorange;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+    color: darkorange;
+}
+
+ol {
+    font-size: 1.2 em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+ol li {
+    margin: 0;
+    padding: 0 0 0 0.2em;
+}
+
+a, a:visited {
+    color: darkorange
+}
+
+a:hover {
+    color: rgb(255, 196, 0);
+}
+
+hr {
+    padding: 0; 
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 0.3em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/* Header */
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+
+
+header {
+    padding: 2.5em 0 0 0.5em;
+    margin: 0 0 2.0em;
+    background: rgb(236, 165, 83) url(./images/header.jpg) fixed top center ;
+    object-fit: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color:tomato;
+    font-size: 7.5em; 
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    color: rgb(255, 208, 0);
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+
+/* Nav Bars */
+nav {
+    color: tomato;
+    font-size: 1.7em;
+    letter-spacing: 0.4em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #c64322;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: #c64322;
+    background-color: lightpink;
+}
+
+nav#utilityMenu {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: darkorange;
+    height: 1.3em;
+    border: solid black 1px;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#utilityMenu ul li.acctNav a.active {
+    background-color: darkorange;
+}
+
+nav#utilityMenu ul li.acctNav a:hover {
+    background-color: tomato;
+    color: yellow;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited {padding: 0;}
+nav#utilityMenu li a:hover {background-color: transparent;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
+    content: "| ";
+    color: yellow;
+}
+
+/* Sidebar Section */
+
+section#sidebar {
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background: #fff;
+    margin: 1.5em 0 3.0em 1.5em;
+    border-left: solid 5px darkorange;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    color: rgb(255, 115, 0)
+}
+
+.sidebar1 {
+    color: darkorange;
+}
+
+/* Main Section */
+section #main {
+    background-color: rgba(252,251,243,0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+section div.panel img.makeup {
+    width: 100%;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(255, 166, 0, 0.753);
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* fix the alignment of the main section  */
+/* make the website look more polished  */
